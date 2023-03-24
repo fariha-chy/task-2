@@ -1,0 +1,44 @@
+/* <!-- -------- Google Font Roboto -------- --> */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #ffffff;
+    color: #000; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+}
+.btn {
+    border: transparent;
+}
+
+        /* ----- Nav Section ----- */
+.navbar {background-color: white;
+    font-weight: bolder;
+}
+        /* ----- Header Section ----- */
+
+        /* ----- Categorie Section ----- */
+
+.categoie-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+        /* ----- Product Section ----- */
+
+.product-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.product .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+
